@@ -1,0 +1,33 @@
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+  
+  const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+  
+  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+let b = []  
+for(let x of countries){
+    b.push(x)
+}
+b.sort()
+webTechs.sort()
+mernStack.sort()
+console.log(b)
